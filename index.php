@@ -46,24 +46,68 @@
 	      <h2>Bantu tenaga ajar untuk mencapai <b>Anda</b> & mereka yang membutuhkan.</h2>
 				<br>
 
-				<a class="ui big primary button" href="/<?php
+				<a class="ui big primary animated button" href="/<?php
 				if (isset($_SESSION['username'])){
 					echo "campaign";
 				} else {
 					echo "register";
-				} ?>">Mulai  #DONORILMU <i class="right arrow icon"></i></a>
+				} ?>">
+					<div class="visible content">
+						Mulai  #DONORILMU
+						<i class="right arrow icon"></i>
+					</div>
+					<div class="hidden content">Daftar sekarang</div>
+				</a>
 
 	    </div>
 
 	  </div>
 
-		<div id="campaign" class="ui vertical segment">
-			<!-- <div class="ui container"> -->
-				<div class="ui center aligned header">
-					<h1>CAMPAIGN TERBARU</h1>
+		<div class="ui four tiny statistics yellow raised segment">
+			<div class="statistic">
+				<div class="value">
+					22
 				</div>
-				<br><br>
+				<div class="label">
+					Saves
+				</div>
+			</div>
+			<div class="statistic">
+				<div class="text value">
+					Three<br>
+					Thousand
+				</div>
+				<div class="label">
+					Signups
+				</div>
+			</div>
+			<div class="statistic">
+				<div class="value">
+					<i class="plane icon"></i> 5
+				</div>
+				<div class="label">
+					Flights
+				</div>
+			</div>
+			<div class="statistic">
+				<div class="value">
+					<i class="user icon"></i>
+					42
+				</div>
+				<div class="label">
+					Team Members
+				</div>
+			</div>
+		</div>
 
+		<div id="campaign" class="ui vertical segment">
+
+			<div class="ui center aligned header">
+				<h1>CAMPAIGN TERBARU</h1>
+			</div>
+			<br><br>
+
+			<div class="segments">
 				<div class="ui link three special cards">
 					<div id="card" class="ui card">
 						<a class="blurring dimmable image" href="#">
@@ -317,9 +361,11 @@
 						<label>Lihat lainnya</label>
 					</a>
 				</div>
-			<!-- </div> -->
+
+			</div>
 
 		</div>
+
 
 	  <div class="ui vertical stripe segment">
 	    <div class="ui middle aligned stackable grid container">

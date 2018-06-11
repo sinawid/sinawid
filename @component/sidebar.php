@@ -1,9 +1,9 @@
 <!-- Sidebar Menu -->
-<div class="ui vertical sidebar menu">
+<div class="ui vertical sidebar menu elevated segment">
     <div class="ui item">
         <div class="right item middle aligned" >
             <i class="user big icon"></i>
-        <br>	
+        <br>
                     <?php
                         if (isset($_SESSION['username'])){
                             echo 'Hi, '.$_SESSION['username'].'!';
@@ -18,7 +18,7 @@
     <a class="active menu item" href="../">Beranda</a>
     <div class="menu">
         <a class="active item">Tentang kami</a>
-        <a class="item">Campaign terkini</a>
+        <a class="item">Campaign terbaru</a>
         <a class="item">Hubungi</a>
     </div>
     </div>

@@ -1,4 +1,5 @@
 <div class="right item">
-    Selamat datang, <a href="#"><?php echo $_SESSION['username'] ?>
-    <a class="ui basic inverted button" href="/logout">Keluar</a>
+	<pre>
+		Selamat datang, <a href="#"><?php echo $_SESSION['username'] ?></a> | <a class="item" href="../logout" style="background-color:#eee">Keluar</a>
+	</pre>
 </div>

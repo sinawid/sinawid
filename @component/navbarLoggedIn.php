@@ -1,4 +1,5 @@
 <div class="item">
-	Selamat datang, <a href="#"><?php echo $_SESSION['username'] ?></a>
+	<pre>
+		Selamat datang, <a href="#"><?php echo $_SESSION['username'] ?></a> | <a class="item" href="../logout" style="background-color:#eee">Keluar</a>
+	</pre>
 </div>
-<a class="item" href="../logout" style="background-color:#eee">Keluar</a>
