@@ -35,7 +35,7 @@
 	<!-- Page Contents -->
 	<div class="pusher">
 	  <div class="ui inverted vertical masthead center aligned segment">
-			
+
 			<?php	include('@component/navbar.php') ?>
 
 	    <div class="ui text container">
@@ -52,7 +52,7 @@
 				} else {
 					echo "register";
 				} ?>">Mulai  #DONORILMU <i class="right arrow icon"></i></a>
-	      
+
 	    </div>
 
 	  </div>
