@@ -1,0 +1,16 @@
+#campaign .special.cards{
+	overflow-y: scroll;
+	height: 400px;
+}
+
+#campaign .special.cards .ui.card{
+	float: left;
+}
+
+@media only screen and (max-width: 700px) {
+
+	#campaign .special.cards{
+		height: 100%;
+		overflow: hidden;
+	}
+}
